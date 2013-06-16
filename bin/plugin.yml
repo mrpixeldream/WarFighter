@@ -1,0 +1,24 @@
+name: WarFighter
+author: MrPixelDream
+version: 2.1
+main: de.mrpixeldream.bukkit.warfighter.WarFighter
+description: A small and lightweight plugin which turns your server into a battlefield
+commands:
+    kd:
+        usage: /kd [player]
+        description: Shows the kill-death ratio of [player]
+    ratio:
+        usage: /ratio [player]
+        description: Shows the kill-death ratio of [player]
+    restart:
+        usage: /restart [game type]
+        description: Starts a new match of [game type]
+    team:
+        usage: /team [color]
+        description: Shows all members of team [color]
+    stats:
+        usage: /stats
+        description: Shows the stats of both teams
+permissions:
+    restart:
+        default: op
