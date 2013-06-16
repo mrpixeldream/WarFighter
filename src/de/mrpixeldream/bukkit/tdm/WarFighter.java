@@ -84,11 +84,11 @@ public class WarFighter extends JavaPlugin implements Listener {
 
 		System.out.println("Loading Time Limit...");
 
-		unlimitedTime = getConfig().getBoolean("General.unlimted time");
+		unlimitedTime = getConfig().getBoolean("General.unlimtedtime");
 
 		System.out.println("Loading Time Preferences...");
 
-		unlimitedScore = getConfig().getBoolean("General.unlimted score");
+		unlimitedScore = getConfig().getBoolean("General.unlimtedscore");
 
 		System.out.println("Loading Score Preferences...");
 
@@ -154,9 +154,9 @@ public class WarFighter extends JavaPlugin implements Listener {
 		if (!configFileExistant) {
 			getConfig().addDefault("General.friendly_fire",
 					Boolean.valueOf(false));
-			getConfig().addDefault("General.unlimited time",
+			getConfig().addDefault("General.unlimitedtime",
 					Boolean.valueOf(false));
-			getConfig().addDefault("General.unlimited score",
+			getConfig().addDefault("General.unlimitedscore",
 					Boolean.valueOf(false));
 			getConfig().addDefault("General.score limit", Integer.valueOf(10));
 			getConfig().addDefault("Respawn.time", Integer.valueOf(7));
