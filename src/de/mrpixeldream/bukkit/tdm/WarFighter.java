@@ -76,11 +76,11 @@ public class WarFighter extends JavaPlugin implements Listener {
 
 		respawn_time = getConfig().getInt("Respawn.time");
 
-		System.out.println("[WarFighter] Setting Time Limit...");
+		System.out.println("[WarFighter] Setting timelimit...");
 
-		timeLimit = getConfig().getInt("General.time limit") / 60;
+		timeLimit = getConfig().getInt("General.timelimit") / 60;
 
-		time = getConfig().getInt("General.time limit");
+		time = getConfig().getInt("General.timelimit");
 
 		System.out.println("Loading Time Limit...");
 
@@ -160,7 +160,7 @@ public class WarFighter extends JavaPlugin implements Listener {
 					Boolean.valueOf(false));
 			getConfig().addDefault("General.score limit", Integer.valueOf(10));
 			getConfig().addDefault("Respawn.time", Integer.valueOf(7));
-			getConfig().addDefault("General.time limit", Integer.valueOf(600));
+			getConfig().addDefault("General.timelimit", Integer.valueOf(600));
 		}
 
 		saveConfig();
