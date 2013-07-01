@@ -1,7 +1,7 @@
 name: WarFighter
 author: MrPixelDream
 version: 2.1
-main: de.mrpixeldream.bukkit.warfighter.WarFighter
+main: de.mrpixeldream.bukkit.tdm.WarFighter
 description: A small and lightweight plugin which turns your server into a battlefield
 commands:
     kd:
